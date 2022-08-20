@@ -3,7 +3,6 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- Change this: -->
     <title>Ramsay Porter</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
@@ -11,6 +10,7 @@
       integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
       crossorigin="anonymous"
     />
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
   </head>
   <body>
     <header>
@@ -38,11 +38,14 @@
         <h4 class="mb-3">Pet Information</h4>
         <p class="mb-3">Breed: Lhasa Opso and Poodle Mix</p>
         <p class="mb-3">Weight: 23 lbs</p>
-        <p>Age: 2 years</p>
+        <p ckass="mb-3" id="age">Age:</p>
         <p class="mb-3">
           Temperament: Ramsay is territorial and is very scared of strangers. Please be careful when reaching for him.
         </p>
         <p class="mb-3">Ramsay is a runner and will take off if given the chance. He is fast.</p>
+        <a href="./files/Ramsay Vet.pdf" target="_blank">Vet Records</a>
+        <br />
+        <br />
         <div class="text-center">
           <img width="200" height="200" src="./Images/Shorter-Hair.JPG" class="rounded" alt="Ramsay Short Hair" />
           <img width="200" height="200" src="./Images/Longer-Hair.JPG" class="rounded" alt="Ramsay Longer Hair" />
@@ -119,5 +122,7 @@
       </div>
       <!-- Copyright -->
     </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./script/ramsay-script.js"></script>
   </body>
 </html>
